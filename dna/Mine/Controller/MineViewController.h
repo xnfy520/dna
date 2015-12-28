@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BaseViewController.h"
+#import "BaseImp.h"
 
 @interface MineViewController : BaseViewController
 

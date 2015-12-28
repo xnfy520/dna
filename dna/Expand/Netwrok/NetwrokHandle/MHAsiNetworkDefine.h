@@ -34,7 +34,7 @@ typedef void (^MHAsiStartBlock)(void);
  *
  *  @param returnData 回调block
  */
-typedef void (^MHAsiSuccessBlock)(id returnData,int code,NSString *msg);
+typedef void (^MHAsiSuccessBlock)(NSDictionary *returnData);
 
 /**
  *  请求失败回调

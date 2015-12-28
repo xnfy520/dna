@@ -9,6 +9,15 @@
 #ifndef MHNetwrok_h
 #define MHNetwrok_h
 
+//#ifdef DEBUG
+//#   define DTLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ## __VA_ARGS__);
+//#else
+//#   define DTLog(...)
+//#endif
+//
+//#define SHOW_ALERT(_msg_)  UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"提示" message:_msg_ delegate:nil cancelButtonTitle:nil otherButtonTitles:@"确定", nil];\
+//[alert show];
+
 #import "MHAsiNetworkDefine.h"
 #import "MHAsiNetworkDefine.h"
 #import "MHAsiNetworkHandler.h"

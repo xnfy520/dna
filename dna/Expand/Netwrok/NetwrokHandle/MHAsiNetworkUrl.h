@@ -8,26 +8,26 @@
 
 #ifndef MHProject_MHAsiNetworkUrl_h
 #define MHProject_MHAsiNetworkUrl_h
+///**
+// *  正式环境
+// */
+//#define API_HOST @"http://123.59.61.167/api/JNWTV"
+
+///**
+// *   测试环境
+// */
+#define API_HOST @"http://localhost:3000"
+
+//      接口路径全拼
+#define PATH(_path)             [NSString stringWithFormat:_path, API_HOST]
+/**
+ *      首页
+ */
+#define DEF_GetHomepage         PATH(@"%@/users/list")
 
 /**
- *  API HOST
+ *      上传头像
  */
-#define API_HOST @"http://www.perasst.com:8082/perasst_v3"
-// 接口路径全拼
-#define PATH(_path) [NSString stringWithFormat:_path, API_HOST]
-
-/**
- *      用户登录
- */
-#define DEF_USER_Login  PATH(@"%@/user/login.pa")
-
-/**
- *      发送验证码
- */
-#define DEF_SendCode   PATH(@"%@/user/sendRegisterVerifyCode.pa")
-/**
- *      用户注册
- */
-#define DEF_USER_REGIST PATH(@"%@/user/sendRegisterVerifyCode.pa")
+#define DEF_UploadHeadImg       PATH(@"%@/UploadHeadImg")
 
 #endif

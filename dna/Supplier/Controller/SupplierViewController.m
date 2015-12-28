@@ -8,6 +8,7 @@
 
 #import "SupplierViewController.h"
 
+
 @interface SupplierViewController ()
 
 @end
@@ -17,6 +18,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [MHNetworkManager postReqeustWithURL:DEF_GetHomepage params:@{@"account":@"13103859179",@"sign":@"0c1fc7f08389e844a62d428152caedf6",@"token":@"26713f368ced59a9a25e3afd077e3a05"} successBlock:^(NSDictionary *returnData) {
+        
+    } failureBlock:^(NSError *error) {
+        NSLog(@"error");
+    } showHUD:NO];
+    
+}
+
+- (void)finishedRequest
+{
+    NSLog(@"hello");
 }
 
 @end

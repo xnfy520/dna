@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "MHAsiNetworkDefine.h"
 #import "MHAsiNetworkDelegate.h"
-
+@class MHUploadParam;
 /// 请求管理着
 @interface MHNetworkManager : NSObject
 
@@ -99,5 +99,20 @@
                     target:(id)target
                     action:(SEL)action
                    showHUD:(BOOL)showHUD;
+/**
+ *  上传文件
+ *
+ *  @param url          上传文件的 url 地址
+ *  @param paramsDict   参数字典
+ *  @param successBlock 成功
+ *  @param failureBlock 失败
+ *  @param showHUD      显示 HUD
+ */
++ (void)uploadFileWithURL:(NSString*)url
+                   params:(NSDictionary*)paramsDict
+             successBlock:(MHAsiSuccessBlock)successBlock
+             failureBlock:(MHAsiFailureBlock)failureBlock
+              uploadParam:(MHUploadParam *)uploadParam
+                  showHUD:(BOOL)showHUD;
 
 @end

@@ -9,11 +9,7 @@
 #import "MHAsiNetworkHandler.h"
 #import "MHAsiNetworkItem.h"
 #import "AFNetworking.h"
-
-//#define SHOW_ALERT(_msg_)  UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"提示" message:_msg_ delegate:nil cancelButtonTitle:nil otherButtonTitles:@"确定", nil];\
-//[alert show];
-
-#define SHOW_ALERT(_msg_) [UIAlertController alertControllerWithTitle:@"提示" message:_msg_ preferredStyle:UIAlertControllerStyleAlert];
+#import "BaseDef.h"
 
 @interface MHAsiNetworkHandler ()
 <MHAsiNetworkDelegate>
@@ -22,13 +18,11 @@
 
 + (MHAsiNetworkHandler *)sharedInstance
 {
-    
     static MHAsiNetworkHandler *handler = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         handler = [[MHAsiNetworkHandler alloc] init];
     });
-    
     return handler;
 }
 
@@ -67,11 +61,14 @@
 {
     if (self.networkError == YES) {
         SHOW_ALERT(@"网络连接断开,请检查网络!");
+        if (failureBlock) {
+            failureBlock(nil);
+        }
         return nil;
     }
     /// 如果有一些公共处理，可以写在这里
     NSUInteger hashValue = [delegate hash];
-   self.netWorkItem = [[MHAsiNetworkItem alloc]initWithtype:networkType url:url params:params delegate:delegate target:target action:action hashValue:hashValue showHUD:showHUD successBlock:successBlock failureBlock:failureBlock];
+    self.netWorkItem = [[MHAsiNetworkItem alloc]initWithtype:networkType url:url params:params delegate:delegate target:target action:action hashValue:hashValue showHUD:showHUD successBlock:successBlock failureBlock:failureBlock];
     self.netWorkItem.delegate = self;
     [self.items addObject:self.netWorkItem];
     return self.netWorkItem;
@@ -86,18 +83,23 @@
     // 2.设置网络状态改变后的处理
     [mgr setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
         // 当网络状态改变了, 就会调用这个block
-        switch (status) {
+        switch (status)
+        {
             case AFNetworkReachabilityStatusUnknown: // 未知网络
-                NSLog(@"未知网络");
+                DTLog(@"\n\n网络状态:未知网络\n\n");
+                [MHAsiNetworkHandler sharedInstance].networkError = NO;
                 break;
             case AFNetworkReachabilityStatusNotReachable: // 没有网络(断网)
                 [MHAsiNetworkHandler sharedInstance].networkError = YES;
+                DTLog(@"\n\n网络状态:网络断开\n\n");
                 break;
             case AFNetworkReachabilityStatusReachableViaWWAN: // 手机自带网络
-                NSLog(@"手机自带网络");
+                DTLog(@"\n\n网络状态:手机自带网络\n\n");
+                [MHAsiNetworkHandler sharedInstance].networkError = NO;
                 break;
             case AFNetworkReachabilityStatusReachableViaWiFi: // WIFI
-                NSLog(@"WIFI");
+                DTLog(@"\n\n网络状态:WIFI\n\n");
+                [MHAsiNetworkHandler sharedInstance].networkError = NO;
                 break;
         }
     }];
@@ -127,11 +129,7 @@
 
 - (void)netWorkWillDealloc:(MHAsiNetworkItem *)itme
 {
-
     [self.items removeObject:itme];
     self.netWorkItem = nil;
-    
-    NSLog(@"-----%@",self.items);
-
 }
 @end

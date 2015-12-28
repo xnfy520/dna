@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 @class MHAsiNetworkItem;
-
 /**
  *   AFN 请求封装的代理协议
  */
@@ -28,7 +27,11 @@
  */
 - (void)requestdidFailWithError:(NSError*)error;
 
-
+/**
+ *   网络请求项即将被移除掉
+ *
+ *   @param itme 网络请求项
+ */
 - (void)netWorkWillDealloc:(MHAsiNetworkItem*)itme;
 
 @end

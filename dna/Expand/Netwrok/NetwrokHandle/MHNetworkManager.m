@@ -8,7 +8,9 @@
 
 #import "MHNetworkManager.h"
 #import "MHAsiNetworkHandler.h"
-
+#import "MHUploadParam.h"
+#import "MBProgressHUD+Add.h"
+#import "BaseDef.h"
 @implementation MHNetworkManager
 + (instancetype)allocWithZone:(struct _NSZone *)zone
 {
@@ -144,7 +146,6 @@
 {
     [self postReqeustWithURL:url params:params target:nil action:nil delegate:nil successBlock:successBlock failureBlock:failureBlock showHUD:showHUD];
 }
-
 /**
  *   post请求通过代理回调
  *
@@ -160,8 +161,6 @@
 {
     [self postReqeustWithURL:url params:params target:nil action:nil delegate:delegate successBlock:nil failureBlock:nil showHUD:showHUD];
 }
-
-
 /**
  *   post 请求通过 target 回调结果
  *
@@ -177,6 +176,45 @@
                    showHUD:(BOOL)showHUD
 {
     [self postReqeustWithURL:url params:params target:target action:action delegate:nil successBlock:nil failureBlock:nil showHUD:showHUD];
+}
+
+/**
+ *  上传文件
+ *
+ *  @param url          上传文件的 url 地址
+ *  @param paramsDict   参数字典
+ *  @param successBlock 成功
+ *  @param failureBlock 失败
+ *  @param showHUD      显示 HUD
+ */
++ (void)uploadFileWithURL:(NSString*)url
+                   params:(NSDictionary*)paramsDict
+             successBlock:(MHAsiSuccessBlock)successBlock
+             failureBlock:(MHAsiFailureBlock)failureBlock
+              uploadParam:(MHUploadParam *)uploadParam
+                  showHUD:(BOOL)showHUD
+{
+//    if (showHUD) {
+//        [MBProgressHUD showHUDAddedTo:nil animated:YES];
+//    }
+//    DTLog(@"上传图片接口 URL-> %@",url);
+//    DTLog(@"上传图片的参数-> %@",paramsDict);
+//    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+//    [manager POST:url parameters:paramsDict constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
+//        [formData appendPartWithFileData:uploadParam.data name:uploadParam.name fileName:uploadParam.fileName mimeType:uploadParam.mimeType];
+//    } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+//        [MBProgressHUD hideHUDForView:nil animated:YES];
+//        DTLog(@"----> %@",responseObject);
+//        if (successBlock) {
+//            successBlock(responseObject);
+//        }
+//    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+//        [MBProgressHUD hideAllHUDsForView:nil animated:YES];
+//        DTLog(@"----> %@",error.domain);
+//        if (error) {
+//            failureBlock(error);
+//        }
+//    }];
 }
 
 @end

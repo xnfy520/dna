@@ -21,8 +21,7 @@
     // Override point for customization after application launch.
     // 设置主窗口,并设置跟控制器
     
-    self.window = [[UIWindow alloc]init];
-    self.window.frame = [UIScreen mainScreen].bounds;
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     TabBarControllerConfing *tabBarControllerConfig = [[TabBarControllerConfing alloc] init];
     [self.window setRootViewController:tabBarControllerConfig.tabBarController];
     [self.window makeKeyAndVisible];
