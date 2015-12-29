@@ -7,8 +7,11 @@
 //
 
 #import "BaseViewController.h"
+#import "SignInUIViewController.h"
+#import "SignUpViewController.h"
+#import "BaseDef.h"
 
-@interface BaseViewController ()
+@interface BaseViewController ()<UITabBarControllerDelegate>
 
 @end
 
@@ -17,6 +20,45 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    self.tabBarController.delegate = self;
+}
+
+- (void)showLoginView
+{
+    SignInUIViewController *signIn = [[SignInUIViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:signIn];
+    signIn.hidesBottomBarWhenPushed = YES;
+    [self.navigationController presentViewController:nav animated:YES completion:^{
+        
+    }];
+    NSLog(@"LoginView");
+}
+
+- (void)showRegView
+{
+    SignUpViewController *signUp = [[SignUpViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:signUp];
+    signUp.hidesBottomBarWhenPushed = YES;
+    [self.navigationController presentViewController:nav animated:YES completion:^{
+        
+    }];
+    NSLog(@"RegView");
+}
+
+- (void)closeView
+{
+    [self dismissViewControllerAnimated:YES completion:^{
+        
+    }];
+}
+
+- (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController
+{
+    if (viewController.tabBarItem.tag == kTabBarItemMine) {
+        [self showLoginView];
+        return NO;
+    }
+    return YES;
 }
 
 @end

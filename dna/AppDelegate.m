@@ -9,6 +9,9 @@
 #import "AppDelegate.h"
 #import "TabBarControllerConfing.h"
 #import "MHAsiNetworkHandler.h"
+#import "OrderViewController.h"
+#import "BaseViewController.h"
+#import "BaseDef.h"
 
 @interface AppDelegate ()
 
@@ -33,7 +36,7 @@
 }
 
 - (void)customizeInterface {
-    [self setUpNavigationBarAppearance];
+//    [self setUpNavigationBarAppearance];
 }
 
 /**

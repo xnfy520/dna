@@ -8,7 +8,6 @@
 
 #import "SupplierViewController.h"
 
-
 @interface SupplierViewController ()
 
 @end

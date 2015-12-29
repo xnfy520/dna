@@ -21,8 +21,8 @@ UIButton<CYLPlusButtonSubclassing> *CYLExternPushlishButton = nil;
 
 + (void)registerSubclass {
     if ([self conformsToProtocol:@protocol(CYLPlusButtonSubclassing)]) {
-//        Class<CYLPlusButtonSubclassing> class = self;
-//        CYLExternPushlishButton = [class plusButton];
+        Class<CYLPlusButtonSubclassing> class = self;
+        CYLExternPushlishButton = [class plusButton];
     }
 }
 

@@ -10,6 +10,7 @@
 #import "SupplierViewController.h"
 #import "OrderViewController.h"
 #import "MineViewController.h"
+#import "BaseDef.h"
 
 @interface TabBarControllerConfing ()
 
@@ -30,17 +31,20 @@
         SupplierViewController *firstViewController = [[SupplierViewController alloc] init];
         UIViewController *firstNavigationController = [[UINavigationController alloc]
                                                        initWithRootViewController:firstViewController];
+        firstNavigationController.tabBarItem.tag = kTabBarItemSupplier;
         
         OrderViewController *secondViewController = [[OrderViewController alloc] init];
         UIViewController *secondNavigationController = [[UINavigationController alloc]
                                                         initWithRootViewController:secondViewController];
+        secondNavigationController.tabBarItem.tag = kTabBarItemOrder;
         
         MineViewController *thirdViewController = [[MineViewController alloc] init];
         UIViewController *thirdNavigationController = [[UINavigationController alloc]
                                                        initWithRootViewController:thirdViewController];
+        thirdNavigationController.tabBarItem.tag = kTabBarItemMine;
         
         CYLTabBarController *tabBarController = [[CYLTabBarController alloc] init];
-        
+
         /*
          *
          在`-setViewControllers:`之前设置TabBar的属性，设置TabBarItem的属性，包括 title、Image、selectedImage。
@@ -70,17 +74,17 @@
 - (void)setUpTabBarItemsAttributesForController:(CYLTabBarController *)tabBarController {
     
     NSDictionary *dict1 = @{
-                            CYLTabBarItemTitle : @"首页",
+                            CYLTabBarItemTitle : @"代练",
                             CYLTabBarItemImage : @"home_normal",
                             CYLTabBarItemSelectedImage : @"home_highlight",
                             };
     NSDictionary *dict2 = @{
-                            CYLTabBarItemTitle : @"同城",
+                            CYLTabBarItemTitle : @"订单",
                             CYLTabBarItemImage : @"mycity_normal",
                             CYLTabBarItemSelectedImage : @"mycity_highlight",
                             };
     NSDictionary *dict3 = @{
-                            CYLTabBarItemTitle : @"消息",
+                            CYLTabBarItemTitle : @"我的",
                             CYLTabBarItemImage : @"message_normal",
                             CYLTabBarItemSelectedImage : @"message_highlight",
                             };

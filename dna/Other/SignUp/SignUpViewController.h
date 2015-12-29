@@ -1,5 +1,5 @@
 //
-//  BaseViewController.h
+//  SignUpViewController.h
 //  dna
 //
 //  Created by 雪念飞叶 on 15/12/28.
@@ -7,13 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseImp.h"
 
-@interface BaseViewController : UIViewController
-
-- (void)showLoginView;
-
-- (void)showRegView;
-
-- (void)closeView;
+@interface SignUpViewController : BaseViewController
 
 @end

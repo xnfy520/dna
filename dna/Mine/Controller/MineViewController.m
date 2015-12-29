@@ -17,6 +17,31 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+
+    
+    UIButton *bt = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [bt setTitle:@"login" forState:UIControlStateNormal];
+    [bt addTarget:self action:@selector(regViews) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:bt];
+    
+    [bt mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.size.mas_equalTo(CGSizeMake(100, 30));
+        make.centerX.equalTo(self.view.mas_centerX);
+        make.centerY.equalTo(self.view.mas_centerY);
+    }];
+    [self showLoginView];
 }
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    self.navigationController.navigationBarHidden = NO;
+}
+
+- (void)regViews
+{
+    [self showLoginView];
+}
+
+
 
 @end

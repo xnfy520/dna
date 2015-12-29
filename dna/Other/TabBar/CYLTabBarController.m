@@ -30,7 +30,7 @@ NSUInteger CYLTabbarItemsCount = 0;
 -(void)viewDidLoad{
     [super viewDidLoad];
     // 处理tabBar，使用自定义 tabBar 添加 发布按钮
-    [self setUpTabBar];
+//    [self setUpTabBar];
 }
 
 #pragma mark -
@@ -91,6 +91,7 @@ NSUInteger CYLTabbarItemsCount = 0;
                 selectedImageName:(NSString *)selectedImageName {
     
     viewController.tabBarItem.title         = title;
+    
     UIImage *normalImage = [UIImage imageNamed:normalImageName];
     normalImage = [normalImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     viewController.tabBarItem.image         = normalImage;

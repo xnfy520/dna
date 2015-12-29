@@ -12,46 +12,59 @@
 		39F978881C30E8D700C4C0E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F978861C30E8D700C4C0E8 /* Main.storyboard */; };
 		39F9788A1C30E8D700C4C0E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39F978891C30E8D700C4C0E8 /* Assets.xcassets */; };
 		39F9788D1C30E8D700C4C0E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F9788B1C30E8D700C4C0E8 /* LaunchScreen.storyboard */; };
-		39F9796B1C310D8200C4C0E8 /* CYLPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F978B61C310D8100C4C0E8 /* CYLPlusButton.m */; settings = {ASSET_TAGS = (); }; };
-		39F9796C1C310D8200C4C0E8 /* CYLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F978B81C310D8100C4C0E8 /* CYLTabBar.m */; settings = {ASSET_TAGS = (); }; };
-		39F9796D1C310D8200C4C0E8 /* CYLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F978BA1C310D8100C4C0E8 /* CYLTabBarController.m */; settings = {ASSET_TAGS = (); }; };
-		39F979811C310D8200C4C0E8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39F978EE1C310D8100C4C0E8 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
-		39F979821C310D8200C4C0E8 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F978F01C310D8100C4C0E8 /* MASCompositeConstraint.m */; settings = {ASSET_TAGS = (); }; };
-		39F979831C310D8200C4C0E8 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F978F31C310D8100C4C0E8 /* MASConstraint.m */; settings = {ASSET_TAGS = (); }; };
-		39F979841C310D8200C4C0E8 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F978F51C310D8100C4C0E8 /* MASConstraintMaker.m */; settings = {ASSET_TAGS = (); }; };
-		39F979851C310D8200C4C0E8 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F978F71C310D8100C4C0E8 /* MASLayoutConstraint.m */; settings = {ASSET_TAGS = (); }; };
-		39F979861C310D8200C4C0E8 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F978FB1C310D8100C4C0E8 /* MASViewAttribute.m */; settings = {ASSET_TAGS = (); }; };
-		39F979871C310D8200C4C0E8 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F978FD1C310D8100C4C0E8 /* MASViewConstraint.m */; settings = {ASSET_TAGS = (); }; };
-		39F979881C310D8200C4C0E8 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F978FF1C310D8100C4C0E8 /* NSArray+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
-		39F979891C310D8200C4C0E8 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F979021C310D8100C4C0E8 /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {ASSET_TAGS = (); }; };
-		39F9798A1C310D8200C4C0E8 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F979041C310D8100C4C0E8 /* View+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
-		39F9798B1C310D8200C4C0E8 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F979071C310D8100C4C0E8 /* ViewController+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
-		39F979B51C310E1000C4C0E8 /* SupplierViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F979B41C310E1000C4C0E8 /* SupplierViewController.m */; settings = {ASSET_TAGS = (); }; };
-		39F979B81C310E2900C4C0E8 /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F979B71C310E2900C4C0E8 /* OrderViewController.m */; settings = {ASSET_TAGS = (); }; };
-		39F979BB1C310E3A00C4C0E8 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F979BA1C310E3A00C4C0E8 /* MineViewController.m */; settings = {ASSET_TAGS = (); }; };
-		39F979BE1C310EBA00C4C0E8 /* TabBarControllerConfing.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F979BD1C310EBA00C4C0E8 /* TabBarControllerConfing.m */; settings = {ASSET_TAGS = (); }; };
-		39F97A131C31194600C4C0E8 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A121C31194600C4C0E8 /* BaseViewController.m */; settings = {ASSET_TAGS = (); }; };
-		39F97A401C311FD300C4C0E8 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A181C311FD300C4C0E8 /* AFHTTPSessionManager.m */; settings = {ASSET_TAGS = (); }; };
-		39F97A411C311FD300C4C0E8 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A1B1C311FD300C4C0E8 /* AFNetworkReachabilityManager.m */; settings = {ASSET_TAGS = (); }; };
-		39F97A421C311FD300C4C0E8 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A1D1C311FD300C4C0E8 /* AFSecurityPolicy.m */; settings = {ASSET_TAGS = (); }; };
-		39F97A431C311FD300C4C0E8 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A1F1C311FD300C4C0E8 /* AFURLRequestSerialization.m */; settings = {ASSET_TAGS = (); }; };
-		39F97A441C311FD300C4C0E8 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A211C311FD300C4C0E8 /* AFURLResponseSerialization.m */; settings = {ASSET_TAGS = (); }; };
-		39F97A451C311FD300C4C0E8 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A231C311FD300C4C0E8 /* AFURLSessionManager.m */; settings = {ASSET_TAGS = (); }; };
-		39F97A481C311FD300C4C0E8 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A281C311FD300C4C0E8 /* AFAutoPurgingImageCache.m */; settings = {ASSET_TAGS = (); }; };
-		39F97A491C311FD300C4C0E8 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A2A1C311FD300C4C0E8 /* AFImageDownloader.m */; settings = {ASSET_TAGS = (); }; };
-		39F97A4A1C311FD300C4C0E8 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A2C1C311FD300C4C0E8 /* AFNetworkActivityIndicatorManager.m */; settings = {ASSET_TAGS = (); }; };
-		39F97A4B1C311FD300C4C0E8 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A2E1C311FD300C4C0E8 /* UIActivityIndicatorView+AFNetworking.m */; settings = {ASSET_TAGS = (); }; };
-		39F97A4C1C311FD300C4C0E8 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A301C311FD300C4C0E8 /* UIButton+AFNetworking.m */; settings = {ASSET_TAGS = (); }; };
-		39F97A4D1C311FD300C4C0E8 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A331C311FD300C4C0E8 /* UIImageView+AFNetworking.m */; settings = {ASSET_TAGS = (); }; };
-		39F97A4E1C311FD300C4C0E8 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A361C311FD300C4C0E8 /* UIProgressView+AFNetworking.m */; settings = {ASSET_TAGS = (); }; };
-		39F97A4F1C311FD300C4C0E8 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A381C311FD300C4C0E8 /* UIRefreshControl+AFNetworking.m */; settings = {ASSET_TAGS = (); }; };
-		39F97A501C311FD300C4C0E8 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A3A1C311FD300C4C0E8 /* UIWebView+AFNetworking.m */; settings = {ASSET_TAGS = (); }; };
-		39F97A511C311FD300C4C0E8 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A3D1C311FD300C4C0E8 /* MBProgressHUD+Add.m */; settings = {ASSET_TAGS = (); }; };
-		39F97A521C311FD300C4C0E8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A3F1C311FD300C4C0E8 /* MBProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
-		39F97A611C311FE600C4C0E8 /* MHAsiNetworkHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A581C311FE600C4C0E8 /* MHAsiNetworkHandler.m */; settings = {ASSET_TAGS = (); }; };
-		39F97A621C311FE600C4C0E8 /* MHAsiNetworkItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A5A1C311FE600C4C0E8 /* MHAsiNetworkItem.m */; settings = {ASSET_TAGS = (); }; };
-		39F97A631C311FE600C4C0E8 /* MHNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A5D1C311FE600C4C0E8 /* MHNetworkManager.m */; settings = {ASSET_TAGS = (); }; };
-		39F97A641C311FE600C4C0E8 /* MHUploadParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A601C311FE600C4C0E8 /* MHUploadParam.m */; settings = {ASSET_TAGS = (); }; };
+		39F9796B1C310D8200C4C0E8 /* CYLPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F978B61C310D8100C4C0E8 /* CYLPlusButton.m */; };
+		39F9796C1C310D8200C4C0E8 /* CYLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F978B81C310D8100C4C0E8 /* CYLTabBar.m */; };
+		39F9796D1C310D8200C4C0E8 /* CYLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F978BA1C310D8100C4C0E8 /* CYLTabBarController.m */; };
+		39F979811C310D8200C4C0E8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39F978EE1C310D8100C4C0E8 /* Info.plist */; };
+		39F979821C310D8200C4C0E8 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F978F01C310D8100C4C0E8 /* MASCompositeConstraint.m */; };
+		39F979831C310D8200C4C0E8 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F978F31C310D8100C4C0E8 /* MASConstraint.m */; };
+		39F979841C310D8200C4C0E8 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F978F51C310D8100C4C0E8 /* MASConstraintMaker.m */; };
+		39F979851C310D8200C4C0E8 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F978F71C310D8100C4C0E8 /* MASLayoutConstraint.m */; };
+		39F979861C310D8200C4C0E8 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F978FB1C310D8100C4C0E8 /* MASViewAttribute.m */; };
+		39F979871C310D8200C4C0E8 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F978FD1C310D8100C4C0E8 /* MASViewConstraint.m */; };
+		39F979881C310D8200C4C0E8 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F978FF1C310D8100C4C0E8 /* NSArray+MASAdditions.m */; };
+		39F979891C310D8200C4C0E8 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F979021C310D8100C4C0E8 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		39F9798A1C310D8200C4C0E8 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F979041C310D8100C4C0E8 /* View+MASAdditions.m */; };
+		39F9798B1C310D8200C4C0E8 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F979071C310D8100C4C0E8 /* ViewController+MASAdditions.m */; };
+		39F979B51C310E1000C4C0E8 /* SupplierViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F979B41C310E1000C4C0E8 /* SupplierViewController.m */; };
+		39F979B81C310E2900C4C0E8 /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F979B71C310E2900C4C0E8 /* OrderViewController.m */; };
+		39F979BB1C310E3A00C4C0E8 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F979BA1C310E3A00C4C0E8 /* MineViewController.m */; };
+		39F979BE1C310EBA00C4C0E8 /* TabBarControllerConfing.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F979BD1C310EBA00C4C0E8 /* TabBarControllerConfing.m */; };
+		39F97A131C31194600C4C0E8 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A121C31194600C4C0E8 /* BaseViewController.m */; };
+		39F97A401C311FD300C4C0E8 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A181C311FD300C4C0E8 /* AFHTTPSessionManager.m */; };
+		39F97A411C311FD300C4C0E8 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A1B1C311FD300C4C0E8 /* AFNetworkReachabilityManager.m */; };
+		39F97A421C311FD300C4C0E8 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A1D1C311FD300C4C0E8 /* AFSecurityPolicy.m */; };
+		39F97A431C311FD300C4C0E8 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A1F1C311FD300C4C0E8 /* AFURLRequestSerialization.m */; };
+		39F97A441C311FD300C4C0E8 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A211C311FD300C4C0E8 /* AFURLResponseSerialization.m */; };
+		39F97A451C311FD300C4C0E8 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A231C311FD300C4C0E8 /* AFURLSessionManager.m */; };
+		39F97A481C311FD300C4C0E8 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A281C311FD300C4C0E8 /* AFAutoPurgingImageCache.m */; };
+		39F97A491C311FD300C4C0E8 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A2A1C311FD300C4C0E8 /* AFImageDownloader.m */; };
+		39F97A4A1C311FD300C4C0E8 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A2C1C311FD300C4C0E8 /* AFNetworkActivityIndicatorManager.m */; };
+		39F97A4B1C311FD300C4C0E8 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A2E1C311FD300C4C0E8 /* UIActivityIndicatorView+AFNetworking.m */; };
+		39F97A4C1C311FD300C4C0E8 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A301C311FD300C4C0E8 /* UIButton+AFNetworking.m */; };
+		39F97A4D1C311FD300C4C0E8 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A331C311FD300C4C0E8 /* UIImageView+AFNetworking.m */; };
+		39F97A4E1C311FD300C4C0E8 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A361C311FD300C4C0E8 /* UIProgressView+AFNetworking.m */; };
+		39F97A4F1C311FD300C4C0E8 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A381C311FD300C4C0E8 /* UIRefreshControl+AFNetworking.m */; };
+		39F97A501C311FD300C4C0E8 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A3A1C311FD300C4C0E8 /* UIWebView+AFNetworking.m */; };
+		39F97A511C311FD300C4C0E8 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A3D1C311FD300C4C0E8 /* MBProgressHUD+Add.m */; };
+		39F97A521C311FD300C4C0E8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A3F1C311FD300C4C0E8 /* MBProgressHUD.m */; };
+		39F97A611C311FE600C4C0E8 /* MHAsiNetworkHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A581C311FE600C4C0E8 /* MHAsiNetworkHandler.m */; };
+		39F97A621C311FE600C4C0E8 /* MHAsiNetworkItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A5A1C311FE600C4C0E8 /* MHAsiNetworkItem.m */; };
+		39F97A631C311FE600C4C0E8 /* MHNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A5D1C311FE600C4C0E8 /* MHNetworkManager.m */; };
+		39F97A641C311FE600C4C0E8 /* MHUploadParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A601C311FE600C4C0E8 /* MHUploadParam.m */; };
+		39F97A7E1C31329D00C4C0E8 /* MJDictionaryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A681C31329D00C4C0E8 /* MJDictionaryCache.m */; };
+		39F97A7F1C31329D00C4C0E8 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A6B1C31329D00C4C0E8 /* MJExtensionConst.m */; };
+		39F97A801C31329D00C4C0E8 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A6D1C31329D00C4C0E8 /* MJFoundation.m */; };
+		39F97A811C31329D00C4C0E8 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A6F1C31329D00C4C0E8 /* MJProperty.m */; };
+		39F97A821C31329D00C4C0E8 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A711C31329D00C4C0E8 /* MJPropertyKey.m */; };
+		39F97A831C31329D00C4C0E8 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A731C31329D00C4C0E8 /* MJPropertyType.m */; };
+		39F97A841C31329D00C4C0E8 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A751C31329D00C4C0E8 /* NSObject+MJClass.m */; };
+		39F97A851C31329D00C4C0E8 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A771C31329D00C4C0E8 /* NSObject+MJCoding.m */; };
+		39F97A861C31329D00C4C0E8 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A791C31329D00C4C0E8 /* NSObject+MJKeyValue.m */; };
+		39F97A871C31329D00C4C0E8 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A7B1C31329D00C4C0E8 /* NSObject+MJProperty.m */; };
+		39F97A881C31329D00C4C0E8 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A7D1C31329D00C4C0E8 /* NSString+MJExtension.m */; };
+		39F97A901C31342C00C4C0E8 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A8F1C31342C00C4C0E8 /* SignUpViewController.m */; };
+		39F97A931C31344500C4C0E8 /* SignInUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F97A921C31344500C4C0E8 /* SignInUIViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -156,6 +169,33 @@
 		39F97A5F1C311FE600C4C0E8 /* MHUploadParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHUploadParam.h; sourceTree = "<group>"; };
 		39F97A601C311FE600C4C0E8 /* MHUploadParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHUploadParam.m; sourceTree = "<group>"; };
 		39F97A651C31218600C4C0E8 /* BaseImp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseImp.h; sourceTree = "<group>"; };
+		39F97A671C31329D00C4C0E8 /* MJDictionaryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDictionaryCache.h; sourceTree = "<group>"; };
+		39F97A681C31329D00C4C0E8 /* MJDictionaryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDictionaryCache.m; sourceTree = "<group>"; };
+		39F97A691C31329D00C4C0E8 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		39F97A6A1C31329D00C4C0E8 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		39F97A6B1C31329D00C4C0E8 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		39F97A6C1C31329D00C4C0E8 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		39F97A6D1C31329D00C4C0E8 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		39F97A6E1C31329D00C4C0E8 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		39F97A6F1C31329D00C4C0E8 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		39F97A701C31329D00C4C0E8 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		39F97A711C31329D00C4C0E8 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		39F97A721C31329D00C4C0E8 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		39F97A731C31329D00C4C0E8 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		39F97A741C31329D00C4C0E8 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		39F97A751C31329D00C4C0E8 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		39F97A761C31329D00C4C0E8 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		39F97A771C31329D00C4C0E8 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		39F97A781C31329D00C4C0E8 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		39F97A791C31329D00C4C0E8 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		39F97A7A1C31329D00C4C0E8 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		39F97A7B1C31329D00C4C0E8 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		39F97A7C1C31329D00C4C0E8 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		39F97A7D1C31329D00C4C0E8 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		39F97A8E1C31342C00C4C0E8 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		39F97A8F1C31342C00C4C0E8 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		39F97A911C31344500C4C0E8 /* SignInUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInUIViewController.h; sourceTree = "<group>"; };
+		39F97A921C31344500C4C0E8 /* SignInUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInUIViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -347,19 +387,14 @@
 		39F978B01C310D8100C4C0E8 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				39F978B11C310D8100C4C0E8 /* Login */,
+				39F97A941C31347900C4C0E8 /* Guide */,
+				39F97A891C3133D300C4C0E8 /* SignIn */,
+				39F97A8A1C3133D300C4C0E8 /* SignUp */,
 				39F978B21C310D8100C4C0E8 /* Public */,
 				39F978B31C310D8100C4C0E8 /* Setting */,
 				39F978B41C310D8100C4C0E8 /* TabBar */,
 			);
 			path = Other;
-			sourceTree = "<group>";
-		};
-		39F978B11C310D8100C4C0E8 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Login;
 			sourceTree = "<group>";
 		};
 		39F978B21C310D8100C4C0E8 /* Public */ = {
@@ -446,6 +481,7 @@
 		39F978C11C310D8100C4C0E8 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				39F97A661C31329D00C4C0E8 /* MJExtension */,
 				39F97A151C311FD300C4C0E8 /* AFNetworking */,
 				39F97A3B1C311FD300C4C0E8 /* MBProgressHUD */,
 				39F978ED1C310D8100C4C0E8 /* Masonry */,
@@ -580,6 +616,61 @@
 			path = NetwrokHandle;
 			sourceTree = "<group>";
 		};
+		39F97A661C31329D00C4C0E8 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				39F97A671C31329D00C4C0E8 /* MJDictionaryCache.h */,
+				39F97A681C31329D00C4C0E8 /* MJDictionaryCache.m */,
+				39F97A691C31329D00C4C0E8 /* MJExtension.h */,
+				39F97A6A1C31329D00C4C0E8 /* MJExtensionConst.h */,
+				39F97A6B1C31329D00C4C0E8 /* MJExtensionConst.m */,
+				39F97A6C1C31329D00C4C0E8 /* MJFoundation.h */,
+				39F97A6D1C31329D00C4C0E8 /* MJFoundation.m */,
+				39F97A6E1C31329D00C4C0E8 /* MJProperty.h */,
+				39F97A6F1C31329D00C4C0E8 /* MJProperty.m */,
+				39F97A701C31329D00C4C0E8 /* MJPropertyKey.h */,
+				39F97A711C31329D00C4C0E8 /* MJPropertyKey.m */,
+				39F97A721C31329D00C4C0E8 /* MJPropertyType.h */,
+				39F97A731C31329D00C4C0E8 /* MJPropertyType.m */,
+				39F97A741C31329D00C4C0E8 /* NSObject+MJClass.h */,
+				39F97A751C31329D00C4C0E8 /* NSObject+MJClass.m */,
+				39F97A761C31329D00C4C0E8 /* NSObject+MJCoding.h */,
+				39F97A771C31329D00C4C0E8 /* NSObject+MJCoding.m */,
+				39F97A781C31329D00C4C0E8 /* NSObject+MJKeyValue.h */,
+				39F97A791C31329D00C4C0E8 /* NSObject+MJKeyValue.m */,
+				39F97A7A1C31329D00C4C0E8 /* NSObject+MJProperty.h */,
+				39F97A7B1C31329D00C4C0E8 /* NSObject+MJProperty.m */,
+				39F97A7C1C31329D00C4C0E8 /* NSString+MJExtension.h */,
+				39F97A7D1C31329D00C4C0E8 /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		39F97A891C3133D300C4C0E8 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				39F97A911C31344500C4C0E8 /* SignInUIViewController.h */,
+				39F97A921C31344500C4C0E8 /* SignInUIViewController.m */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		39F97A8A1C3133D300C4C0E8 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				39F97A8E1C31342C00C4C0E8 /* SignUpViewController.h */,
+				39F97A8F1C31342C00C4C0E8 /* SignUpViewController.m */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		39F97A941C31347900C4C0E8 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -658,12 +749,17 @@
 				39F97A611C311FE600C4C0E8 /* MHAsiNetworkHandler.m in Sources */,
 				39F9796C1C310D8200C4C0E8 /* CYLTabBar.m in Sources */,
 				39F979881C310D8200C4C0E8 /* NSArray+MASAdditions.m in Sources */,
+				39F97A821C31329D00C4C0E8 /* MJPropertyKey.m in Sources */,
 				39F97A4C1C311FD300C4C0E8 /* UIButton+AFNetworking.m in Sources */,
+				39F97A831C31329D00C4C0E8 /* MJPropertyType.m in Sources */,
+				39F97A931C31344500C4C0E8 /* SignInUIViewController.m in Sources */,
 				39F97A621C311FE600C4C0E8 /* MHAsiNetworkItem.m in Sources */,
 				39F97A521C311FD300C4C0E8 /* MBProgressHUD.m in Sources */,
 				39F978821C30E8D700C4C0E8 /* AppDelegate.m in Sources */,
+				39F97A871C31329D00C4C0E8 /* NSObject+MJProperty.m in Sources */,
 				39F97A4E1C311FD300C4C0E8 /* UIProgressView+AFNetworking.m in Sources */,
 				39F9798B1C310D8200C4C0E8 /* ViewController+MASAdditions.m in Sources */,
+				39F97A811C31329D00C4C0E8 /* MJProperty.m in Sources */,
 				39F979821C310D8200C4C0E8 /* MASCompositeConstraint.m in Sources */,
 				39F979891C310D8200C4C0E8 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				39F97A491C311FD300C4C0E8 /* AFImageDownloader.m in Sources */,
@@ -673,15 +769,22 @@
 				39F97A451C311FD300C4C0E8 /* AFURLSessionManager.m in Sources */,
 				39F9796B1C310D8200C4C0E8 /* CYLPlusButton.m in Sources */,
 				39F97A4A1C311FD300C4C0E8 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				39F97A901C31342C00C4C0E8 /* SignUpViewController.m in Sources */,
 				39F979B51C310E1000C4C0E8 /* SupplierViewController.m in Sources */,
+				39F97A801C31329D00C4C0E8 /* MJFoundation.m in Sources */,
+				39F97A7E1C31329D00C4C0E8 /* MJDictionaryCache.m in Sources */,
+				39F97A851C31329D00C4C0E8 /* NSObject+MJCoding.m in Sources */,
 				39F97A401C311FD300C4C0E8 /* AFHTTPSessionManager.m in Sources */,
 				39F97A501C311FD300C4C0E8 /* UIWebView+AFNetworking.m in Sources */,
+				39F97A881C31329D00C4C0E8 /* NSString+MJExtension.m in Sources */,
 				39F97A441C311FD300C4C0E8 /* AFURLResponseSerialization.m in Sources */,
 				39F97A4F1C311FD300C4C0E8 /* UIRefreshControl+AFNetworking.m in Sources */,
 				39F979841C310D8200C4C0E8 /* MASConstraintMaker.m in Sources */,
 				39F97A431C311FD300C4C0E8 /* AFURLRequestSerialization.m in Sources */,
 				39F97A481C311FD300C4C0E8 /* AFAutoPurgingImageCache.m in Sources */,
 				39F979851C310D8200C4C0E8 /* MASLayoutConstraint.m in Sources */,
+				39F97A7F1C31329D00C4C0E8 /* MJExtensionConst.m in Sources */,
+				39F97A861C31329D00C4C0E8 /* NSObject+MJKeyValue.m in Sources */,
 				39F979871C310D8200C4C0E8 /* MASViewConstraint.m in Sources */,
 				39F979861C310D8200C4C0E8 /* MASViewAttribute.m in Sources */,
 				39F979B81C310E2900C4C0E8 /* OrderViewController.m in Sources */,
@@ -690,6 +793,7 @@
 				39F97A641C311FE600C4C0E8 /* MHUploadParam.m in Sources */,
 				39F97A511C311FD300C4C0E8 /* MBProgressHUD+Add.m in Sources */,
 				39F97A411C311FD300C4C0E8 /* AFNetworkReachabilityManager.m in Sources */,
+				39F97A841C31329D00C4C0E8 /* NSObject+MJClass.m in Sources */,
 				39F97A4D1C311FD300C4C0E8 /* UIImageView+AFNetworking.m in Sources */,
 				39F9796D1C310D8200C4C0E8 /* CYLTabBarController.m in Sources */,
 			);
